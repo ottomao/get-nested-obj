@@ -1,0 +1,15 @@
+{
+  "name": "get-nested-obj",
+  "version": "1.0.0",
+  "description": "safely get a nested object",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ottomao/get-nested-obj"
+  },
+  "author": "Otto Mao <ottomao@gmail.com> (http://ottomao.com/)",
+  "license": "ISC"
+}

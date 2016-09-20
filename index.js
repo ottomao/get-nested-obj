@@ -8,7 +8,7 @@ function getNestedObj(obj){
     var path = Array.prototype.slice.call(arguments,1);
 
     for (var i = 0; i < path.length; i++) {
-      if(path && path[i] && path[i] === 0){
+      if(path[i] === 0){
         path[i] = '0';
       }
       if (!obj || !path[i] || !(obj.hasOwnProperty(path[i]) || (isArray(obj) && obj[path[i]]))) {
